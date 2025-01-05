@@ -54,7 +54,7 @@ async fn main() {
     let mut input = String::new();
     std::io::stdin().read_line(&mut input).expect("Failed to read input");
     let starting_letters = input.trim().to_string();
-    println!("\n Start hunting...this may take many minutes (or even days) to complete");
+    println!("\n Start BTC wallet hunting...this may take many minutes (or even days) to complete");
 
     // Check if all characters in starting_letters are allowed.
     if !check_allowed_chars(&starting_letters) {
