@@ -50,7 +50,7 @@ async fn mine_address(starting_letters: String) {
 #[tokio::main]
 async fn main() {
     // Ask the user for the starting letters.
-    println!("[BITCOIN KEY/ADDRESS MINING] \n Enter the starting letters for the address: ");
+    println!("[AI BTC Wallet Hunter] \n Enter the starting letters for the BTC address: ");
     let mut input = String::new();
     std::io::stdin().read_line(&mut input).expect("Failed to read input");
     let starting_letters = input.trim().to_string();
